@@ -1,0 +1,76 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+#photo-of-me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+}
+
+.subheading {
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+
+@media (min-width: 350px) {
+    
+    .portrait {
+        float: none;
+    }/* small screens */
+
+    .landscape {
+        width: 536px;
+    }
+
+    p {
+        font-size: x-large;
+    }
+}
+    
+@media (min-width: 700px) {
+    .portrait {
+        padding-right: .5em;
+        float: left;
+    }/* medium-large screens */
+
+    .landscape {
+        max-width: 1072px;
+    }
+
+    p {
+        font-size: medium;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+
+.centered-list {
+    text-align: center;
+}
+
+ul.centered {
+  display: inline-block;
+  text-align: left;
+}
+
+ul {
+    text-align: center;
+    font-weight: bold;
+}
+
+.links {
+    font-family: "Times New Roman", Times, serif;
+}
+
+

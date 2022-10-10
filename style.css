@@ -1,6 +1,48 @@
-html {
+/* Better to import Google Fonts in your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* the visible content of your page is wrapped in body */
+body {
+    background-color:rgb(48, 48, 48);
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
+
+#main-body {
+    background-color:rgb(241, 241, 241);
+    padding: 1%;
+    margin: 1%;
+}
+
+.subheading, h1, .centered-list, ul {
+    text-align: center;
+}
+
+div.clearer {
+    clear: both;
+}
+
+#top-bar {
+    position:sticky;
+    overflow: hidden;
+    z-index: 5;
+    top:0;
+    width:100%;
+    background-color:rgb(241, 241, 241);
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#top-bar > a{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color:rgb(0, 76, 10);
+    font-weight: bold;
+}
+  
+#top-bar > a:hover {
+    color: rgb(0, 203, 34);
+  }
 
 #photo-of-me {
     display: block;
@@ -12,51 +54,21 @@ html {
 }
 
 .subheading {
-    text-align: center;
+    color:rgb(241,241,241);
     font-size: large;
     font-weight: 400;
     padding-bottom: 1em;
 }
 
-@media (min-width: 350px) {
-    
-    .portrait {
-        float: none;
-    }/* small screens */
-
-    .landscape {
-        width: 536px;
-    }
-
-    p {
-        font-size: x-large;
-    }
-}
-    
-@media (min-width: 700px) {
-    .portrait {
-        padding-right: .5em;
-        float: left;
-    }/* medium-large screens */
-
-    .landscape {
-        max-width: 1072px;
-    }
-
-    p {
-        font-size: medium;
-    }
+div.text-block > p{
+    text-indent: 1em;
 }
 
 h1 {
-    text-align: center;
+    color:rgb(241,241,241);
     font-size: xx-large;
     font-weight: bolder;
     margin-bottom: 0%;
-}
-
-.centered-list {
-    text-align: center;
 }
 
 ul.centered {
@@ -65,12 +77,53 @@ ul.centered {
 }
 
 ul {
-    text-align: center;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .links {
     font-family: "Times New Roman", Times, serif;
 }
 
+li > a {
+    font-weight: 900;
+    color:rgb(0, 76, 10)
+}
 
+/* Stella:
+Depending on the device, there might be more pixel in 1 CSS pixel.
+For iPhone XR, maybe there are 2 pixels in 1 CSS pixel:
+https://www.sitepoint.com/media-queries-width-vs-device-width/ 
+So you need to add a meta line in your HTML, see my comment there
+*/
+@media (min-width: 200px) {
+    .portrait {
+        float: none;
+    }/* small screens */
+
+    .landscape {
+        width: 100%;
+    }
+
+    p {
+        font-size: large;
+    }
+}
+@media (min-width: 536px) {
+    .landscape {
+        max-width: 536px;
+    }
+}
+    
+@media (min-width: 700px) {
+    .portrait {
+        padding-right: .5em;
+        float: left;
+    }
+    .landscape {
+        max-width: 1072px;
+    }
+
+    p {
+        font-size: medium;
+    }
+}

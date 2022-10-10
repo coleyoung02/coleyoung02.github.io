@@ -12,6 +12,7 @@ body {
     padding: 1%;
     margin: 1%;
 }
+
 #main-body, #top-bar{
     background-color:rgb(241, 241, 241);
 }
@@ -20,9 +21,14 @@ h1, .subheading {
     color:rgb(241, 241, 241);
 }
 
-.subheading, h1, .centered-list, ul {
+h2 {
+    padding-top: 1.5em; margin-top: -1.3em;
+}
+
+.subheading, h1, .centered-list {
     text-align: center;
 }
+
 
 div.clearer {
     clear: both;
@@ -39,8 +45,6 @@ div.clearer {
 }
 
 #top-bar > a, li > a{
-    padding-left: 1.5em;
-    padding-right: 1.5em;
     color:rgb(0, 76, 10);
     font-weight: bold;
 }
@@ -77,12 +81,8 @@ h1 {
 ul.centered {
   display: inline-block;
   text-align: left;
+  margin-top: 0em;
 }
-
-ul {
-    font-weight: 500;
-}
-
 
 
 /* Stella:
@@ -99,8 +99,13 @@ So you need to add a meta line in your HTML, see my comment there
     .landscape {
         width: 100%;
     }
-
-    p {
+    
+    #top-bar > a {
+        padding-left: .75em;
+        padding-right: .75em;
+    }
+    
+    p, .minor {
         font-size: large;
     }
 }
@@ -115,11 +120,17 @@ So you need to add a meta line in your HTML, see my comment there
         padding-right: .5em;
         float: left;
     }
+
+    #top-bar > a {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    
     .landscape {
         max-width: 1072px;
     }
 
-    p {
+    p, .minor {
         font-size: medium;
     }
 }

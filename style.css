@@ -12,8 +12,12 @@ body {
     padding: 1%;
     margin: 1%;
 }
-#main-body, #top-bar, .subheading, h1 {
+#main-body, #top-bar{
     background-color:rgb(241, 241, 241);
+}
+
+h1, .subheading {
+    color:rgb(241, 241, 241);
 }
 
 .subheading, h1, .centered-list, ul {
@@ -34,16 +38,16 @@ div.clearer {
     padding-bottom: .5em;
 }
 
-#top-bar > a{
+#top-bar > a, li > a{
     padding-left: 1.5em;
     padding-right: 1.5em;
     color:rgb(0, 76, 10);
     font-weight: bold;
 }
   
-#top-bar > a:hover {
+#top-bar > a:hover , li > a:hover{
     color: rgb(0, 203, 34);
-  }
+}
 
 #photo-of-me {
     display: block;
@@ -79,10 +83,7 @@ ul {
     font-weight: 500;
 }
 
-li > a {
-    font-weight: 600;
-    color:rgb(0, 76, 10)
-}
+
 
 /* Stella:
 Depending on the device, there might be more pixel in 1 CSS pixel.

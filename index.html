@@ -11,26 +11,29 @@ EMAIL: coleby@uci.edu
   <meta name="author" content="Cole Young">
   <meta name="description" content="my web portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="style.css" rel="stylesheet">
+   <link href="default.css" rel="stylesheet" id="theme">
+   <script src="buttonHandler.js" ></script>
+   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <title>Cole's Portfolio</title>
 
 </head>
-<body>
+<body id="body">
   <header>
     <h1>
       Cole Young
     </h1>
     <div class="subheading">
-      Software Engineer and HCI Student
+      Computer Science and HCI Student
     </div>
   </header>
 
   <div id="top-bar">
     <a href="#contact">Contact</a>
-    <a href="#skills">Skills</a>
+    <a href="#skills_link">Skills</a>
     <a href="#courses">Courses</a>
     <a href="#projects">Projects</a>
     <a href="project_archive.html">Project Archive</a>
+    <button id="toggle_dark">Light/Dark mode</button>
   </div>
 
   <div id="main-body">
@@ -41,7 +44,10 @@ EMAIL: coleby@uci.edu
       </h2>
       <ul class="centered">
         <li>
-          email: coleby@uci.edu
+          school email: coleby@uci.edu
+        </li>
+        <li>
+          personal email: coleyoung741@gmail.com
         </li>
         <li>
           education: B.S. Computer Science + Informatics (HCI), sep. 2021 - jun. 2024
@@ -65,11 +71,12 @@ EMAIL: coleby@uci.edu
       </ul>
     </div>
 
+    <a class="anchor" id="skills_link"></a>
     <div id="skills">
       <h2>
         Skills
       </h2>
-      <ul>
+      <ul class="unbulleted">
         <li>
           Java
         </li>
@@ -125,7 +132,7 @@ EMAIL: coleby@uci.edu
       <h2>
         Relevant Courses
       </h2>
-      <ul>
+      <ul class="unbulleted">
         <li>
           Data Structures
         </li>
@@ -171,7 +178,7 @@ EMAIL: coleby@uci.edu
       </ul>
     </div>
     
-
+    <div class="clearer"></div>
     <div id="projects">
       <h2>
         Projects:

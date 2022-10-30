@@ -1,11 +1,45 @@
-/* Better to import Google Fonts in your CSS file */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* the visible content of your page is wrapped in body */
 body {
-    background-color:rgb(48, 48, 48);
+    background-color:rgb(50, 50, 50);
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+background: rgb(50, 50, 50); 
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(25, 25, 25); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgb(85, 85, 85); 
+}
+
+#top-bar > a, li > a{
+    color: rgb(0, 203, 34);
+    font-weight: bold;
+}   
+
+#top-bar > a:hover , li > a:hover{
+    color:rgb(0, 255, 34);
+}
+
+#main-body, #top-bar{
+    background-color:rgb(25, 25, 25);
+}
+
+h1, .subheading {
+    color:rgb(255, 255, 255);
 }
 
 #end-logos, #main-body {
@@ -13,12 +47,9 @@ body {
     margin: 1%;
 }
 
-#main-body, #top-bar{
-    background-color:rgb(241, 241, 241);
-}
-
-h1, .subheading {
-    color:rgb(241, 241, 241);
+.unbulleted {
+    list-style: none;
+    padding-left: 0;
 }
 
 h2 {
@@ -44,14 +75,8 @@ div.clearer {
     padding-bottom: .5em;
 }
 
-#top-bar > a, li > a{
-    color:rgb(0, 76, 10);
-    font-weight: bold;
-}
-  
-#top-bar > a:hover , li > a:hover{
-    color: rgb(0, 203, 34);
-}
+
+
 
 #photo-of-me {
     display: block;
@@ -84,13 +109,13 @@ ul.centered {
   margin-top: 0em;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -1.85em;
+    visibility: hidden;
+}
 
-/* Stella:
-Depending on the device, there might be more pixel in 1 CSS pixel.
-For iPhone XR, maybe there are 2 pixels in 1 CSS pixel:
-https://www.sitepoint.com/media-queries-width-vs-device-width/ 
-So you need to add a meta line in your HTML, see my comment there
-*/
 @media (min-width: 200px) {
     .portrait {
         float: none;
@@ -121,6 +146,18 @@ So you need to add a meta line in your HTML, see my comment there
         float: left;
     }
 
+    #skills {
+        padding-left: 10%;
+        padding-right: 5%;
+        float: left;
+    }
+
+    #courses {
+        padding-right: 10%;
+        padding-left: 5%;
+        text-align: right;
+    }
+
     #top-bar > a {
         padding-left: 1.5em;
         padding-right: 1.5em;
@@ -132,5 +169,14 @@ So you need to add a meta line in your HTML, see my comment there
 
     p, .minor {
         font-size: medium;
+    }
+}
+
+@media (min-width: 1100px) { 
+    #courses {
+        padding-right: 20%;
+    }
+    #skills {
+        padding-left: 20%;
     }
 }

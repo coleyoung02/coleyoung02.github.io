@@ -46,12 +46,12 @@ body {
   }
 
 
-#top-bar > a, li > a{
+#top-bar > a, li > a, .link{
     color:rgb(0, 76, 10);
     font-weight: bold;
 }  
 
-#top-bar > a:hover , li > a:hover{
+#top-bar > a:hover , li > a:hover, .link:hover{
     color: rgb(0, 203, 34);
 }
 
@@ -84,11 +84,11 @@ background: rgb(85, 85, 85);
         background-color:rgb(50, 50, 50);
         color: white;
     }
-    #top-bar > a, li > a{
+    #top-bar > a, li > a, .link{
         color: rgb(0, 203, 34);
     }  
     
-    #top-bar > a:hover , li > a:hover{
+    #top-bar > a:hover , li > a:hover, .link:hover{
         color:rgb(0, 255, 34);
     }
     h1, .subheading {
@@ -120,8 +120,8 @@ background: rgb(85, 85, 85);
     }
 
     button:hover {
-        color: white;
-        background-color: rgb(0,0,0);
+        color: black;
+    background-color: white;
     }
 }
 

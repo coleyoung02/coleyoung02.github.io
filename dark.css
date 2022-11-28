@@ -41,12 +41,12 @@ background: rgb(25, 25, 25);
 background: rgb(85, 85, 85); 
 }
 
-#top-bar > a, li > a{
+#top-bar > a, li > a, .link{
     color: rgb(0, 203, 34);
     font-weight: bold;
 }   
 
-#top-bar > a:hover , li > a:hover{
+#top-bar > a:hover , li > a:hover, .link:hover{
     color:rgb(0, 255, 34);
 }
 

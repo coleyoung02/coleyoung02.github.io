@@ -84,10 +84,7 @@ EMAIL: coleby@uci.edu
           Python
         </li>
         <li>
-          C
-        </li>
-        <li>
-          C++
+          C/C++
         </li>
         <li>
           C#
@@ -102,16 +99,13 @@ EMAIL: coleby@uci.edu
           TypeScript
         </li>
         <li>
+          Angular
+        </li>
+        <li>
           Unity
         </li>
         <li>
           Assembly
-        </li>
-        <li>
-          Eclipse
-        </li>
-        <li>
-          PyCharm
         </li>
         <li>
           VS Code
@@ -138,6 +132,15 @@ EMAIL: coleby@uci.edu
       <ul class="unbulleted">
         <li>
           Data Structures
+        </li>
+        <li>
+          Design and Analysis of Algorithms
+        </li>
+        <li>
+          Information Retrieval
+        </li>
+        <li>
+          Project Management
         </li>
         <li>
           Linear Algebra
@@ -189,7 +192,7 @@ EMAIL: coleby@uci.edu
       <h3>
         Yakamoto Clean Sweep
       </h3>
-      <iframe frameborder="0" src="https://itch.io/embed/1807848" width="552" height="167"><a href="https://maidandready.itch.io/yakamoto-clean-sweep">Yakamoto Clean Sweep by MaidAndReady, Riifushi, coleyoung02</a></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/1807848" width="552" height="167" id="itch-embed"><a href="https://maidandready.itch.io/yakamoto-clean-sweep">Yakamoto Clean Sweep by MaidAndReady, Riifushi, coleyoung02</a></iframe>
       <p>A <a href="https://maidandready.itch.io/yakamoto-clean-sweep" target="_blank" class="link">first person cleaning game</a> 
         developed with a team from the UCI Video Game Development Club in the fall of 2022.
       </p>
@@ -201,75 +204,80 @@ EMAIL: coleby@uci.edu
       </p>
       
       <h3>
-        Python matching game
+        Sleeptracker in Ionic
       </h3>
       <p>
         <video controls autoplay loop class="portrait" width="298" muted>
-          <source src="columns.mp4" type="video/mp4">
-          <img src="python_fallback.jpg" title="Your browser does not support the video" alt="screenshot of gem game app">
+          <source src="sleeptracker.mp4" type="video/mp4">
+          <img src="ionic_fallback.jpg" title="Your browser does not support the video" alt="screenshot of sleeptracker app">
           Your browser does not support the video.
         </video>
       </p>
       <div class="text-block">
         <p>
-          This is a falling tile matching game I made in the fall of 2021.
+          This is a sleep tracking web app I made in the fall of 2022. I focused on making the interface easy to use in the most common case, 
+          logging sleep for the current or previous night, while still having the ability to easily support logging historical sleep data.
         </p>
         <p>
-          The game takes keyboard input and was my first experience coding something with graphics or 
+          In the visualization section I wanted to create an interface that could provide quick informative information. I achieved this
+          by color coding sleep and energy data to the hours of sleep and reported energy level. A week by week breakdown is given with 
+          the averages for hours of sleep and energy level given.
         </p>
         <p>
-          It is coded in Python using the Pygame library using a virtual environment and the IDLE editor that comes with python.
+          It is made using Angular with Ionic.
+        </p>
+        <p>
+          Sleep data is pushed to and retrieved from a Firebase database using Angular Firestore.
+        </p>
+        <p>
+          The charts are generated with the Chart.js library.
         </p>
       </div> 
-    </div>
+    
 
-    <div class="clearer"></div>
+      <div class="clearer"></div>
 
-    <div>
-      <h3>
-        Java based quiz application
-      </h3>
-      <video controls autoplay loop class="landscape" muted>
-        <source src="quiz.mp4" type="video/mp4">
-        <img src="java_fallback.jpg" title="Your browser does not support the video" alt="screenshot of quiz app gui">
-        Your browser does not support the video.
-      </video>
-      <div class = "text-block">
-        <p>
-          I made this quiz platform with Java in the summer of 2022 to help me pass the CA DMV knowledge exam. 
-        </p>
-        <p>
-          As existing online quiz resources have become increasingly expensive, I wanted to create a system that I could use to 
-          test knowledge of multiple choice questions in a similar way, while emphasizing features that I know help me learn while 
-          reducing distractions. 
-        </p>
-        <p>
-          The official DMV website has example quizzes, but they are very limited, and I found the interface clunky and difficult to 
-          use. Users can only test on sets of 10 questions at a time, and don't see if their answers are correct until after submitting 
-          the entire block of 10.
-        </p>
-        <p>
-          The project shows the user their score as they progress through the quiz so they have feedback on their performance, 
-          and immediately gives feedback on the correctness of the user's guesses. Users can also attempt more guesses after initially
-          getting the question wrong, which encourages them to try to learn the correct answer, even after making a mistake.
-        </p>
-        <p>
-          I coded this using a Maven project on eclipse with the org.json and swing libraries.
-        </p>
-        <p>
-          I am still making updates to this project as I come up with new ideas to improve it.
-        </p>
+
+      
+
+      <div>
+        <h3>
+          Java based quiz application
+        </h3>
+        <video controls autoplay loop class="landscape" muted>
+          <source src="quiz.mp4" type="video/mp4">
+          <img src="java_fallback.jpg" title="Your browser does not support the video" alt="screenshot of quiz app gui">
+          Your browser does not support the video.
+        </video>
+        <div class = "text-block">
+          <p>
+            I made this quiz platform with Java in the summer of 2022 to help me pass the CA DMV knowledge exam. 
+          </p>
+          <p>
+            As existing online quiz resources have become increasingly expensive, I wanted to create a system that I could use to 
+            test knowledge of multiple choice questions in a similar way, while emphasizing features that I know help me learn while 
+            reducing distractions. 
+          </p>
+          <p>
+            The official DMV website has example quizzes, but they are very limited, and I found the interface clunky and difficult to 
+            use. Users can only test on sets of 10 questions at a time, and don't see if their answers are correct until after submitting 
+            the entire block of 10.
+          </p>
+          <p>
+            The project shows the user their score as they progress through the quiz so they have feedback on their performance, 
+            and immediately gives feedback on the correctness of the user's guesses. Users can also attempt more guesses after initially
+            getting the question wrong, which encourages them to try to learn the correct answer, even after making a mistake.
+          </p>
+          <p>
+            I coded this using a Maven project on eclipse with the org.json and swing libraries.
+          </p>
+          <p>
+            I am still making updates to this project as I come up with new ideas to improve it.
+          </p>
+        </div>
       </div>
     </div>
   </div>
-
-  <footer id="end-logos">
-    <a href="https://jigsaw.w3.org/css-validator" target="_blank">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="W3C CSS validator" >
-    </a>
-  </footer>
   
   
 </body>

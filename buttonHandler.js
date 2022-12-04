@@ -4,16 +4,24 @@ function onClick() {
     let sheets = document.getElementById('theme');
     if(mode == "light") {
         let photo = document.getElementById('photo-of-me');
+        let embed = document.getElementById('itch-embed');
         if (photo) {
             photo.src = "dark.jpg";
+        }
+        if (embed) {
+            embed.src = "https://itch.io/embed/1807848?dark=true";
         }
         mode = "dark";    
         sessionStorage.setItem("clicked","dark");
     }
     else {
         let photo = document.getElementById('photo-of-me');
+        let embed = document.getElementById('itch-embed');
         if (photo) {
             photo.src = "photo.jpg";
+        }
+        if (embed) {
+            embed.src = "https://itch.io/embed/1807848";
         }
         mode = "light";
         sessionStorage.setItem("clicked","light");
@@ -22,9 +30,13 @@ function onClick() {
 }
 function addHandler() {
     let photo = document.getElementById('photo-of-me');
+    let embed = document.getElementById('itch-embed');
     if (prefersDarkScheme.matches) {
         if (photo) {
             document.getElementById('photo-of-me').src = "dark.jpg";
+        }
+        if (embed) {
+            embed.src = "https://itch.io/embed/1807848?dark=true";
         }
         mode = "dark";
     }
@@ -36,9 +48,11 @@ function addHandler() {
         
         if (photo) {
             if(mode == "dark") {
+                embed.src = "https://itch.io/embed/1807848?dark=true";
                 photo.src = "dark.jpg";
             }
             else {
+                embed.src = "https://itch.io/embed/1807848";
                 photo.src = "photo.jpg";
             }
         }

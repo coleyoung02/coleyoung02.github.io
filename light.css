@@ -70,6 +70,17 @@ h2 {
     padding-top: 1.5em; margin-top: -1.3em;
 }
 
+#project-header {
+    font-size: xx-large;
+    padding-bottom: -1em;
+    margin-bottom: -1em;
+}
+
+h3 {
+    font-size: x-large;
+    padding-top: 1.5em;
+}
+
 .subheading, h1, .centered-list {
     text-align: center;
 }

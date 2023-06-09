@@ -81,6 +81,12 @@ h3 {
     padding-top: 1.5em;
 }
 
+h4 {
+    font-size: large;
+    margin-bottom: .1em;
+    padding-bottom: .1em;
+}
+
 .subheading, h1, .centered-list {
     text-align: center;
 }

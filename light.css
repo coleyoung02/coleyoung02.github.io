@@ -9,12 +9,12 @@ button:hover {
 }
 
 body {
-    background-color:rgb(50,50,50);
+    background-color:rgb(40,40,40);
     color: black;
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(50, 50, 50); 
+    background: rgb(40, 40, 40); 
 }
 
 ::-webkit-scrollbar-thumb {
@@ -25,11 +25,11 @@ body {
     background: rgb(85, 85, 85); 
 }
 
-#top-bar > a, li > a, .link{
+#top-bar > a, li > a, .link {
     color:rgb(0, 76, 10);
 }  
 
-#top-bar > a:hover , li > a:hover, .link:hover{
+#top-bar > a:hover , li > a:hover, .link:hover {
     color: rgb(0, 203, 34);
 }
 
@@ -38,5 +38,5 @@ body {
 }
 
 h1, .subheading {
-    color:rgb(241, 241, 241);
+    color:black;
 }

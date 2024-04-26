@@ -25,11 +25,11 @@ body {
     background: rgb(85, 85, 85); 
 }
 
-#top-bar > a, li > a, .link{
+#top-bar > a, li > a, .link {
     color: rgb(0, 203, 34);
 }   
 
-#top-bar > a:hover , li > a:hover, .link:hover{
+#top-bar > a:hover , li > a:hover, .link:hover {
     color:rgb(0, 255, 34);
 }
 

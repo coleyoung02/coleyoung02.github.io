@@ -47,6 +47,13 @@ h3 {
     padding-top: 1.5em;
 }
 
+.main-links {
+    font-size: large;
+    padding-top: .5em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 h4 {
     font-size: large;
     margin-bottom: .1em;
@@ -73,13 +80,13 @@ div.clearer {
 }
 
 #photo-of-me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 7.5px 7.5px;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 2%;
     width: 50%;
     max-width: 400px;
     height: auto;
-    border-radius: 5px;
 }
 
 .subheading {
@@ -128,6 +135,11 @@ a.anchor {
     p, .minor {
         font-size: large;
     }
+
+    #photo-of-me {
+        margin: auto;
+        display: block;
+    }
 }
 @media (min-width: 536px) {
     .landscape {
@@ -164,6 +176,21 @@ a.anchor {
 
     p, .minor {
         font-size: medium;
+    }
+
+    .split-box {
+        display: flex; 
+        flex-direction: row;
+    }
+
+    #photo-of-me {
+        margin-left: 2%;
+        margin-right: 5%;
+        margin-top: 2%;
+    }
+
+    #links-holder {
+        padding-left: 3%;
     }
 }
 

@@ -43,6 +43,20 @@ function addHandler() {
             }
         }
     }
+    else {
+        mode = prefersDarkScheme.matches;
+        var sheets = document.getElementById('theme');
+        sheets.href = mode + ".css";
+        
+        if (photo) {
+            if(mode == "dark") {
+                photo.src = "dark.jpg";
+            }
+            else {
+                photo.src = "photo.jpg";
+            }
+        }
+    }
     document.getElementById("toggle_dark").addEventListener("click", onClick);
     
 }

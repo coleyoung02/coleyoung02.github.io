@@ -1,15 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-
 button {
     color: white;
     background-color: rgb(0,0,0);
-    font-family: 'Poppins', sans-serif;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
 }
 
 button:hover {
@@ -19,14 +10,7 @@ button:hover {
 
 body {
     background-color:rgb(25, 25, 25);
-    font-family: 'Poppins', sans-serif;
-    margin: 0%;
     color: white;
-}
-
-
-::-webkit-scrollbar {
-    width: 15px;
 }
 
 ::-webkit-scrollbar-track {
@@ -38,12 +22,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: rgb(85, 85, 85); 
+    background: rgb(85, 85, 85); 
 }
 
 #top-bar > a, li > a, .link{
     color: rgb(0, 203, 34);
-    font-weight: bold;
 }   
 
 #top-bar > a:hover , li > a:hover, .link:hover{
@@ -56,160 +39,4 @@ background: rgb(85, 85, 85);
 
 h1, .subheading {
     color:rgb(255, 255, 255);
-}
-
-#end-logos, #main-body {
-    padding: 1%;
-    margin: 1%;
-}
-
-.unbulleted {
-    list-style: none;
-    padding-left: 0;
-}
-
-h2 {
-    padding-top: 1.5em; margin-top: -1.3em;
-}
-
-#project-header {
-    font-size: xx-large;
-    padding-bottom: -1em;
-    margin-bottom: -1em;
-}
-
-h3 {
-    font-size: x-large;
-    padding-top: 1.5em;
-}
-
-h4 {
-    font-size: large;
-    margin-bottom: .1em;
-    padding-bottom: .1em;
-}
-
-.subheading, h1, .centered-list {
-    text-align: center;
-}
-
-
-div.clearer {
-    clear: both;
-}
-
-#top-bar {
-    position:sticky;
-    overflow: hidden;
-    z-index: 5;
-    top:0;
-    width:100%;
-    padding-top: .5em;
-    padding-bottom: .5em;
-}
-
-
-
-
-#photo-of-me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    max-width: 400px;
-    height: auto;
-}
-
-.subheading {
-    font-size: large;
-    font-weight: 400;
-    padding-bottom: 1em;
-}
-
-div.text-block > p{
-    text-indent: 1em;
-}
-
-h1 {
-    font-size: xx-large;
-    font-weight: bolder;
-    margin-bottom: 0%;
-}
-
-ul.centered {
-  display: inline-block;
-  text-align: left;
-  margin-top: 0em;
-}
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -1.85em;
-    visibility: hidden;
-}
-
-@media (min-width: 200px) {
-    .portrait {
-        float: none;
-    }/* small screens */
-
-    .landscape {
-        width: 100%;
-    }
-    
-    #top-bar > a {
-        padding-left: .75em;
-        padding-right: .75em;
-    }
-    
-    p, .minor {
-        font-size: large;
-    }
-}
-@media (min-width: 536px) {
-    .landscape {
-        max-width: 536px;
-    }
-}
-    
-@media (min-width: 700px) {
-    .portrait {
-        padding-right: .5em;
-        float: left;
-    }
-
-    #skills {
-        padding-left: 10%;
-        padding-right: 5%;
-        float: left;
-    }
-
-    #courses {
-        padding-right: 10%;
-        padding-left: 5%;
-        text-align: right;
-    }
-
-    #top-bar > a {
-        padding-left: 1.5em;
-        padding-right: 1.5em;
-    }
-    
-    .landscape {
-        max-width: 1072px;
-    }
-
-    p, .minor {
-        font-size: medium;
-    }
-}
-
-@media (min-width: 1100px) { 
-    #courses {
-        padding-right: 20%;
-    }
-    #skills {
-        padding-left: 20%;
-    }
 }

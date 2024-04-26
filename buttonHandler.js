@@ -44,7 +44,7 @@ function addHandler() {
         }
     }
     else {
-        mode = prefersDarkScheme.matches;
+        mode = prefersDarkScheme.matches ? 'dark' : 'light';
         var sheets = document.getElementById('theme');
         sheets.href = mode + ".css";
         

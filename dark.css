@@ -5,7 +5,7 @@ button {
 
 button:hover {
     color: black;
-    background-color: white;
+    background-color: rgb(225,225,225);
 }
 
 body {

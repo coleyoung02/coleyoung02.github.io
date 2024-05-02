@@ -10,6 +10,70 @@ button {
     padding-top: 3px;
     padding-bottom: 3px;
 }
+
+.project-content {
+    margin: auto;
+    text-align: center;
+}
+
+.project-grid {
+    display: flex; 
+    flex-direction: row;
+}
+
+.project-grid > div {
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 6px;
+    margin: 5px; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 5px;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-project-cell {
+    aspect-ratio : 3 / 2;
+    margin: 9px;
+    width: 33.33%;
+    width: calc(100% / 3);
+    box-sizing: border-box;
+    transition: all .175s;
+}
+
+.game-project-cell:hover {
+    transform: scale(1.1); 
+    transition: all .3s;
+}
+
+.game-project-cell > a, .game-project-cell > a > img {
+    height: auto; 
+    width: 100%;
+    border-radius: 4px;
+}
+
+.game-project-cell > a > img {
+    object-fit: cover;
+}
+
+.software-project-cell {
+    width: 50%;
+}
+
+#game-projects, #software-projects {
+    text-align: center;
+}
+
+#game-projects {
+    width: 60%; 
+}
+
+#software-projects {
+    width: 40%; 
+}
   
 body {
     font-family: 'Poppins', sans-serif;

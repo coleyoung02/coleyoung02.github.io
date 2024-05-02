@@ -25,13 +25,13 @@ EMAIL: coleby@uci.edu
     <a href="#skills_link">Skills</a>
     <a href="#courses">Courses</a>
     <a href="#projects">Projects</a>
-    <a href="project_archive.html">Project Archive</a>
+    <a href="./projects/project_archive.html">Project Archive</a>
     <button id="toggle_dark">Light/Dark mode</button>
   </div>
 
   <div id="main-body">
     <div class="split-box">
-      <img src="photo.jpg" alt="Photo of Cole" id="photo-of-me">
+      <img src="images/photo.jpg" alt="Photo of Cole" id="photo-of-me">
       <div>
         <h1>Cole Young</h1>
         <h2 class="subheading">Software Engineer and Game Developer</h2>
@@ -49,6 +49,70 @@ EMAIL: coleby@uci.edu
             <a class="main-links link">Resume</a> 
           </div>
         </div>
+      </div>
+    </div>
+    <div class="project-grid">
+      <div id="game-projects">
+        <h2>
+          Game Dev Projects 
+        </h2>
+        <div class="project-row">
+          <div class="game-project-cell">
+            <a href="./projects/sandwich_sim.html" class="link">
+              <img src="images/SandwichShot.jpg" alt="Sandwich Sim screenshot, game availble on steam">
+              <span >
+                Sandwich Sim
+              </span>
+            </a>
+          </div>
+          <div class="game-project-cell">
+            <a href="./projects/conjure_chaos.html" class="link">
+              <img src="images/cc.jpeg" alt="Conjure Chaos Screenshot">
+              <span>
+                Conjure Chaos
+              </span>
+            </a>
+          </div>
+          <div class="game-project-cell">
+            <a href="./projects/king_of_the_ring.html" class="link">
+              <img src="images/kotr.png" alt="King Of The Ring Screenshot">
+              <span>
+                King of the Ring
+              </span>
+            </a>
+          </div>
+        </div>  
+        <div class="project-row">
+          <div class="game-project-cell">
+            <a href="./projects/astral_onslaught.html" class="link">
+              <img src="images/astrologybrawl.jpg" alt="Astral Onslaught Screenshot">
+              <span>
+                Astral Onslaught
+              </span>
+            </a>
+          </div>
+          <div class="game-project-cell">
+            <a href="./projects/zot_racer.html" class="link">
+              <img src="images/zotracer.jpg" alt="Zot Racer Screenshot">
+              <span>
+                ZotRacer
+              </span>
+            </a>
+          </div>
+          <div class="game-project-cell">
+            <a href="./projects/janews.html" class="link">
+              <img src="images/janews.jpg" alt="JaNews Screenshot">
+              <span>
+                JaNews
+              </span>
+            </a>
+          </div>
+        </div>  
+      </div>
+      <div id="software-projects">
+        <h2>
+          Other Software Projects 
+        </h2>
       </div>
     </div>
     <div class="centered-list" id="contact">
@@ -72,6 +136,16 @@ EMAIL: coleby@uci.edu
         <li>
           <a href="https://www.linkedin.com/in/coleyoung2002/" target="_blank">
             LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://coleyoung02.itch.io/" target="_blank">
+            itch.io (indie game-publishing)
+          </a>
+        </li>
+        <li>
+          <a href="https://store.steampowered.com/curator/44989137" target="_blank">
+            Steam Developer Page
           </a>
         </li>
         <li>
@@ -272,114 +346,12 @@ EMAIL: coleby@uci.edu
         Projects:
       </h2>
       <h3>
-        Sandwich Sim
-      </h3>
-      <p>
-        <div>
-          <iframe width="560" height="364" src="https://www.youtube.com/embed/8-lLAp1GdjU?si=2G6MP-KrIiPsH4wL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <iframe src="https://store.steampowered.com/widget/2925430/" frameborder="0" width="646" height="190"></iframe>
-      </p>
-      <div class="clearer"></div>
-      <p>
-        I was the co-team lead and programming lead on a team of UCI students working on this surreal cooking game. 
-        The game follows an unnamed bear as it tries desperately to assemble a sandwich, though many obstacles get in its way.
-        The main mechanic of the game is manipulating your hands to grab and move objects. The game is fully voice acted, and has a Spanish translation
-        (also with full voice acting) to be released shortly.
-        The game . The game is free to <a href="https://mistyl.itch.io/conjure-chaos" class="link">download on itch.io</a>, or 
-        <a href="https://store.steampowered.com/app/2925430/Sandwich_Sim" class="link">Steam (coming soon)</a>.
-      </p>
-      <p>
-        For this project, I did a little bit of everything (and a lot of programming). I wrote all of the English dialog and created a cutscene system to 
-        display captions in sync with the audio tracks, recorded and implemented all voice acting, programmed shaders for post processing, modeled and textured many of the 3d assets,
-        managed team members across many disciplines, designed, implemented and iterated on mechanics, published to Steam and did some basic marketing, and even used a little bit of
-        what I learned in high school Spanish class.
-      </p>
-      <h3>
-        Conjure Chaos
-      </h3>
-      <p>
-        <a href="https://mistyl.itch.io/conjure-chaos">
-          <img src="cc.jpeg" alt="Conjure Chaos Screenshot" style="max-width: 60%;">
-        </a>
-      </p>
-      <div class="clearer"></div>
-      <p>
-        I was the co-team lead and programming lead on a team of 8 UCI students (4 programmers and 4 artists) developing a <a href="https://mistyl.itch.io/conjure-chaos" class="link">2d magical arena figthing game</a> in Unity using C#. 
-        The game has 11 waves, 22 distinct stacking upgrades, 22 completed animations, and 10 different enemies with 5 unique types. For this game, we were really focusing on giving the player
-        a sense that they are becoming powerful as they build up a pool of upgrades and I think the team did a great job of that. There are about 10-15 minutes of gameplay in one run from start to finish, 
-        but the game is quite challenging and will probably take several attempts to beat. The game is free to <a href="https://mistyl.itch.io/conjure-chaos" class="link">download on itch.io</a>.
-      </p>
-      <p>
-        I personally architected and implemented the upgrade management system, and programmed almost all of the UI elements, and many of the upgrade effects. I also helped guide the programming team, some of which were beginners in the Unity engine. 
-      </p>
-      <h3>
-        King of The Ring
-      </h3>
-      <p>
-        <a href="https://coleyoung02.itch.io/king-of-the-ring">
-          <img src="kotr.png" alt="King Of The Ring Screenshot">
-        </a>
-      </p>
-      <div class="clearer"></div>
-      <p>
-        I led a team of 8 UCI students in developing this <a href="https://coleyoung02.itch.io/king-of-the-ring" class="link">chess boxing arcade game</a>. It combines retro boxing game style gameplay with challenging chess against an AI opponent. 
-        Just like the real life sport of <a href="https://en.wikipedia.org/wiki/Chess_boxing" class="link">chess boxing</a>, the gameplay alternates between rounds of chess and boxing until a knockout or checkmate.
-        To my knowledge, this is the best (and only) chess boxing video game ever created.
-      </p>
-      <p>
-        The chess engine and AI uses C# running in unity, and is threaded in parallel with the rest of the game to ensure smoothness while the relatively intense computation happens in the background. 
-        The game's AI also considers how much time it has remaining, how complex the position is, how close the game is to ending, and a number of other factors when deciding how deep to think about making a move.
-        The chess engine and AI were made by me from scratch, but inspiration was taken from a 
-        <a href="https://www.youtube.com/playlist?list=PLBwF487qi8MGU81nDGaeNE1EnNEPYWKY_" class="link">youtube series</a> 
-        by Eddie Sharick. 
-      </p>
-      <h3>
-        Astral Onslaught
-      </h3>
-      <p>
-        <a href="https://maidandready.itch.io/astral-onslaught">
-          <img src="astrologybrawl.jpg" alt="Astral Onslaught Screenshot">
-        </a>
-      </p>
-      <div class="clearer"></div>
-      <p>
-        I joined a project of over 20 UCI students in developing an <a href="https://coleyoung02.itch.io/king-of-the-ring" class="link">online multiplayer fighting game</a>. This was my first experience working with a networked video game.
-      </p>
-      <p>
-        I was responsible for implementing the tarot card system which is a pickup system in game that mixes up gameplay with special abillities or drawbacks.
-      </p>
-      <h3>
-        ZotRacer
-      </h3>
-      <p>
-        <video controls class="landscape">
-          <source src="ZotTrailer.mp4" type="video/mp4">
-          <img src="zr.jpg" title="Your browser does not support the video" alt="Zot Racer banner image">
-          Your browser does not support the video.
-        </video>
-      </p>
-      <div class="clearer"></div>
-      <p>A <a href="https://elestebann.itch.io/zot-racer" target="_blank" class="link">racing game</a> 
-        developed with a team of 8 students from the UCI Video Game Development Club in the winter of 2023 using the Unreal Engine.
-      </p>
-      <p>
-        I worked on the project as a gameplay programmer.
-        I programmed all movement, controls, and physics for the car, as well as some supporting features
-        like the logic for lap completion and counting, and sound effects.
-        I also learned how to use Blender to do 3d modeling on this project, and DiVinci Resolve to make the trailer (full quality video viewable on the download page, this one is kind of compressed into oblivion).
-        The game is unofficially one of the top 2 Zot-themed racing games of all time.
-      </p>
-      <p>
-        There is a free Windows download at the link above.
-      </p>
-      <h3>
         Sleeptracker in Ionic
       </h3>
       <p>
         <video controls autoplay loop class="portrait" width="298" muted>
-          <source src="sleeptracker.mp4" type="video/mp4">
-          <img src="ionic_fallback.jpg" title="Your browser does not support the video" alt="screenshot of sleeptracker app">
+          <source src="video/sleeptracker.mp4" type="video/mp4">
+          <img src="images/ionic_fallback.jpg" title="Your browser does not support the video" alt="screenshot of sleeptracker app">
           Your browser does not support the video.
         </video>
       </p>
@@ -412,7 +384,7 @@ EMAIL: coleby@uci.edu
       </h3>
       <p>
         <video controls autoplay loop class="landscape" muted>
-          <source src="rps-plus.mp4" type="video/mp4">
+          <source src="video/rps-plus.mp4" type="video/mp4">
           Your browser does not support the video.
         </video>
       </p>
@@ -440,7 +412,7 @@ EMAIL: coleby@uci.edu
 
       
 
-        <a href="project_archive.html" class="link">
+        <a href="./projects/project_archive.html" class="link">
           <h3>
             More projects in project archive
           </h3>

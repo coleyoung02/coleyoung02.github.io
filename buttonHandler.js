@@ -10,20 +10,20 @@ function onClick() {
         mode = "light";
         sessionStorage.setItem("clicked","light");
     }
-    sheets.href = mode + ".css";
+    sheets.href = "/coleyoung02.github.io/" + mode + ".css";
 }
 function addHandler() {
     if (sessionStorage.getItem("clicked")) {
         console.log(sessionStorage.getItem("clicked"));
         mode = sessionStorage.getItem("clicked");
         var sheets = document.getElementById('theme');
-        sheets.href = mode + ".css";
+        sheets.href = "/coleyoung02.github.io/" + mode + ".css";
     }
     else {
         mode = prefersDarkScheme.matches ? 'dark' : 'light';
         console.log(prefersDarkScheme.matches ? 'dark' : 'light')
         var sheets = document.getElementById('theme');
-        sheets.href = mode + ".css";
+        sheets.href = "/coleyoung02.github.io/" + mode + ".css";
     }
     document.getElementById("toggle_dark").addEventListener("click", onClick);
     

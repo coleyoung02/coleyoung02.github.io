@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Cole Young
+EMAIL: coleby@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Cole Young">
+  <meta name="description" content="my web portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="/coleyoung02.github.io/light.css" rel="stylesheet" id="theme">
+   <link href="/coleyoung02.github.io/base.css" rel="stylesheet" id="basetheme">
+   <script src="/coleyoung02.github.io/buttonHandler.js" ></script>
+   <link rel="icon" href="/coleyoung02.github.io/icon.svg" type="image/svg+xml">
+  <title>Cole Young | Developer</title>
+
+</head>
+<body id="body">
+
+  <div id="top-bar">
+    <a href="../index.html#contact">Contact</a>
+    <a href="../index.html#skills_link">Skills</a>
+    <a href="../index.html#courses">Courses</a>
+    <a href="../index.html#projects">Projects</a>
+    <a href="../index.html">Home</a>
+    <button id="toggle_dark">Light/Dark mode</button>
+  </div>
+
+  <div id="main-body">
+    <h1>
+      Handtracking Rock Paper Scissors Plus
+    </h1>
+    <p style="text-align: center;">
+      Fall 2022 - 2 weeks
+    </p>
+    <div class="project-panels">
+      <div class="project-graphics">
+        <video controls autoplay loop class="landscape" width="100%" muted>
+          <source src="../video/rps-plus.mp4" type="video/mp4">
+          Your browser does not support the video.
+        </video>
+        <div></div>
+
+      </div>
+      <div class="project-text">
+        <p>
+          This is a web game I made with a partner in the Fall of 2022. The game can be played and navigated entirely by hand gestures.
+          To develop the app, we first decided what we wanted to do with the handtracking software, and after deciding on the modified version of 
+          rock, paper, scissors, we started designing the layout. Things were kept very simplistic so that we could make sure there were no more than 2 buttons
+          to be used on screen at any time. Then I integrated the handtracking with each page and set up the buttons and navigation between pages. 
+          I also made an angular service that would be used to run games and store results, and set up a system to read hand gestures into game moves. 
+          My partener set up the rest of the gameplay code, including all of the logic for the timer and helped polish up the visuals and layout of 
+          everything and did extensive bug testing. I then went in and added the charts in the stats section usin Chart.js.
+        </p>
+        <p>
+          Navigation is achieved by pointing either left or right to highlight a button, and then closing the pointing hand to "click" it.
+        </p>
+        <p>
+          It is made using Angular.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+</html>

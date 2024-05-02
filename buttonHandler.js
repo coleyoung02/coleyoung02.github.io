@@ -14,7 +14,7 @@ function onClick() {
 }
 function addHandler() {
     if (sessionStorage.getItem("clicked")) {
-        console.log(sessionStorage.getItem("clicked"));
+        console.log("stored pref: " + sessionStorage.getItem("clicked"));
         mode = sessionStorage.getItem("clicked");
         var sheets = document.getElementById('theme');
         sheets.href = "/coleyoung02.github.io/" + mode + ".css";

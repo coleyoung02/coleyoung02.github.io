@@ -31,28 +31,39 @@ EMAIL: coleby@uci.edu
 
   <div id="main-body">
     <h1>
-      JaNews
+      Sleeptracker in Ionic
     </h1>
     <p style="text-align: center;">
-      April 2024 - 48 Hours
+      Fall 2022 - 2 weeks
     </p>
     <div class="project-panels">
       <div class="project-graphics">
-        <img src="../images/janews.jpg" alt="JaNews Screenshot" style="width: 100%; height: auto;">
+        <video controls autoplay loop class="portrait" width="298" muted>
+          <source src="../video/sleeptracker.mp4" type="video/mp4">
+          <img src="../images/ionic_fallback.jpg" title="Your browser does not support the video" alt="screenshot of sleeptracker app">
+          Your browser does not support the video.
+        </video>
         <div></div>
-        <iframe frameborder="0" src="https://itch.io/embed/2675870?linkback=true&amp;border_width=5&amp;bg_color=f8ead8&amp;fg_color=000000&amp;link_color=5DAD88&amp;border_color=5c746b" width="100%" height="auto"><a href="https://hsdrummond.itch.io/janews">JaNews by HSDrummond, jcperez110602, Mistyl, nathamhere, Tomioka760, deltamiyo, Cole Young</a></iframe>
+
       </div>
       <div class="project-text">
         <p>
-          JaNews is a game about telling apart real and fake news headlines. It was made in 48 hours by me and a team of 6 other UCI students.
+          This is a sleep tracking web app I made in the fall of 2022. I focused on making the interface easy to use in the most common case, 
+          logging sleep for the current or previous night, while still having the ability to easily support logging historical sleep data.
         </p>
         <p>
-          I programmed all of the game logic, as well as the interactive video feed and chat, and most of the UI elements.
+          In the visualization section I wanted to create an interface that could provide quick informative information. I achieved this
+          by color coding sleep and energy data to the hours of sleep and reported energy level. A week by week breakdown is given with 
+          the averages for hours of sleep and energy level given.
         </p>
         <p>
-          I also implemented tools to parse CSV files into game content. The news articles are represented in CSV files and loaded into special data structures to display at runtime.
-          The chat pulls from another CSV file with a list of messages paired with sentiments, and another file of possible usernames to generate messages based on how the player
-          is performing in game.
+          It is made using Angular with Ionic.
+        </p>
+        <p>
+          Sleep data is pushed to and retrieved from a Firebase database using Angular Firestore.
+        </p>
+        <p>
+          The charts are generated with the Chart.js library.
         </p>
       </div>
     </div>

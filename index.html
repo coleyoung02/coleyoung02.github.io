@@ -37,10 +37,7 @@ EMAIL: coleby@uci.edu
         <h2 class="subheading">Software Engineer and Game Developer</h2>
         <div id="links-holder">
           <div>
-            <a class="main-links link">Projects</a>
-          </div>
-          <div>
-            <a class="main-links link">Contact Info and Links</a> 
+            <a href="#contact" class="main-links link">Contact Info and Links</a> 
           </div>
           <div>
             <a class="main-links link">About Me and Experience</a> 
@@ -51,7 +48,7 @@ EMAIL: coleby@uci.edu
         </div>
       </div>
     </div>
-    <div class="project-grid">
+    <div class="project-grid big">
       <div id="game-projects">
         <h2>
           Game Dev Projects 
@@ -113,6 +110,111 @@ EMAIL: coleby@uci.edu
         <h2>
           Other Software Projects 
         </h2>
+        <div class="project-row">
+          <div class="game-project-cell">
+            <a href="./projects/rps.html" class="link">
+              <img src="images/rps.jpg" alt="Rock Paper Scissors Plus screenshot">
+              <span >
+                Handtracking Rock Paper Scissors
+              </span>
+            </a>
+          </div>
+          <div class="game-project-cell">
+            <a href="./projects/sleeptracker.html" class="link">
+              <img src="images/sleeptracker.jpg" alt="Mobile Sleeptracker Graph screenshot">
+              <span >
+                Mobile Sleeptracker
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-grid small">
+      <div id="game-projects">
+        <h2>
+          Game Dev Projects 
+        </h2>
+        <div class="project-row">
+          <div class="game-project-cell">
+            <a href="./projects/sandwich_sim.html" class="link">
+              <img src="images/SandwichShot.jpg" alt="Sandwich Sim screenshot, game availble on steam">
+              <span >
+                Sandwich Sim
+              </span>
+            </a>
+          </div>
+          <div class="game-project-cell">
+            <a href="./projects/conjure_chaos.html" class="link">
+              <img src="images/cc.jpeg" alt="Conjure Chaos Screenshot">
+              <span>
+                Conjure Chaos
+              </span>
+            </a>
+          </div>
+          
+        </div>  
+        <div class="project-row">
+          <div class="game-project-cell">
+            <a href="./projects/king_of_the_ring.html" class="link">
+              <img src="images/kotr.png" alt="King Of The Ring Screenshot">
+              <span>
+                King of the Ring
+              </span>
+            </a>
+          </div>
+          <div class="game-project-cell">
+            <a href="./projects/astral_onslaught.html" class="link">
+              <img src="images/astrologybrawl.jpg" alt="Astral Onslaught Screenshot">
+              <span>
+                Astral Onslaught
+              </span>
+            </a>
+          </div>
+        </div>  
+        <div class="project-row">
+          <div class="game-project-cell">
+            <a href="./projects/zot_racer.html" class="link">
+              <img src="images/zotracer.jpg" alt="Zot Racer Screenshot">
+              <span>
+                ZotRacer
+              </span>
+            </a>
+          </div>
+          <div class="game-project-cell">
+            <a href="./projects/janews.html" class="link">
+              <img src="images/janews.jpg" alt="JaNews Screenshot">
+              <span>
+                JaNews
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="software-projects">
+        <h2>
+          Other Software Projects 
+        </h2>
+        <div class="project-row">
+          <div class="game-project-cell">
+            <a href="./projects/rps.html" class="link">
+              <img src="images/rps.jpg" alt="Rock Paper Scissors Plus screenshot">
+              <span >
+                Handtracking Rock Paper Scissors
+              </span>
+            </a>
+          </div>
+        </div>  
+        <div class="project-row">
+          <div class="game-project-cell">
+            <a href="./projects/sleeptracker.html" class="link">
+              <img src="images/sleeptracker.jpg" alt="Mobile Sleeptracker Graph screenshot">
+              <span >
+                Mobile Sleeptracker
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="centered-list" id="contact">
@@ -340,85 +442,6 @@ EMAIL: coleby@uci.edu
       </ul>
     </div>
     
-    <div class="clearer"></div>
-    <div id="projects">
-      <h2 id="project-header">
-        Projects:
-      </h2>
-      <h3>
-        Sleeptracker in Ionic
-      </h3>
-      <p>
-        <video controls autoplay loop class="portrait" width="298" muted>
-          <source src="video/sleeptracker.mp4" type="video/mp4">
-          <img src="images/ionic_fallback.jpg" title="Your browser does not support the video" alt="screenshot of sleeptracker app">
-          Your browser does not support the video.
-        </video>
-      </p>
-      <div class="text-block">
-        <p>
-          This is a sleep tracking web app I made in the fall of 2022. I focused on making the interface easy to use in the most common case, 
-          logging sleep for the current or previous night, while still having the ability to easily support logging historical sleep data.
-        </p>
-        <p>
-          In the visualization section I wanted to create an interface that could provide quick informative information. I achieved this
-          by color coding sleep and energy data to the hours of sleep and reported energy level. A week by week breakdown is given with 
-          the averages for hours of sleep and energy level given.
-        </p>
-        <p>
-          It is made using Angular with Ionic.
-        </p>
-        <p>
-          Sleep data is pushed to and retrieved from a Firebase database using Angular Firestore.
-        </p>
-        <p>
-          The charts are generated with the Chart.js library.
-        </p>
-      </div> 
-    
-
-      <div class="clearer"></div>
-
-      <h3>
-        Rock Paper Scissors Plus
-      </h3>
-      <p>
-        <video controls autoplay loop class="landscape" muted>
-          <source src="video/rps-plus.mp4" type="video/mp4">
-          Your browser does not support the video.
-        </video>
-      </p>
-      <div class="text-block">
-        <p>
-          This is a web game I made with a partner in the Fall of 2022. The game can be played and navigated entirely by hand gestures.
-          To develop the app, we first decided what we wanted to do with the handtracking software, and after deciding on the modified version of 
-          rock, paper, scissors, we started designing the layout. Things were kept very simplistic so that we could make sure there were no more than 2 buttons
-          to be used on screen at any time. Then I integrated the handtracking with each page and set up the buttons and navigation between pages. 
-          I also made an angular service that would be used to run games and store results, and set up a system to read hand gestures into game moves. 
-          My partener set up the rest of the gameplay code, including all of the logic for the timer and helped polish up the visuals and layout of 
-          everything and did extensive bug testing. I then went in and added the charts in the stats section usin Chart.js.
-        </p>
-        <p>
-          Navigation is achieved by pointing either left or right to highlight a button, and then closing the pointing hand to "click" it.
-        </p>
-        <p>
-          It is made using Angular.
-        </p>
-      </div> 
-    
-
-      <div class="clearer"></div>
-      
-
-      
-
-        <a href="./projects/project_archive.html" class="link">
-          <h3>
-            More projects in project archive
-          </h3>
-        </a>
-      </div>
-    </div>
   </div>
   
   

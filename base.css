@@ -192,6 +192,10 @@ a.anchor {
 
 @media (min-width: 200px) {
 
+    .project-row {
+        font-size: .75em;
+    }
+
     .small {
         display: flex;
     }
@@ -302,7 +306,17 @@ a.anchor {
     }
 }
 
+@media (min-width: 850px) {
+    
+    .project-row {
+        font-size: .9em;
+    }
+}
+
 @media (min-width: 1100px) { 
+    .project-row {
+        font-size: 1em;
+    }
     #courses {
         padding-right: 20%;
     }

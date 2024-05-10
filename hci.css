@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.iphone-cap {
+    aspect-ratio : 719 / 1277;
+    max-width: 20%;
+    margin-right: 20px;
+}
+
+.has-narrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.wide-image {
+    height: auto;
+}
+
+@media (min-width: 200px) {
+    .wide-image {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 700px) { 
+    .wide-image {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1100px) { 
+    .wide-image {
+        width: 70%;
+    }
+}

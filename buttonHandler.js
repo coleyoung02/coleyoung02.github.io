@@ -21,7 +21,6 @@ function addHandler() {
     }
     else {
         mode = prefersDarkScheme.matches ? 'dark' : 'light';
-        console.log(prefersDarkScheme.matches ? 'dark' : 'light')
         var sheets = document.getElementById('theme');
         sheets.href = "/coleyoung02.github.io/" + mode + ".css";
     }

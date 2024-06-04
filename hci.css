@@ -3,6 +3,11 @@ h2 {
     padding-top: 80px;
 }
 
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .iphone-cap {
     aspect-ratio : 719 / 1277;
     max-width: 20%;

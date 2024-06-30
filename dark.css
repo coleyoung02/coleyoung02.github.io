@@ -14,7 +14,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(25, 25, 25); 
+    background: rgb(19, 19, 19); 
 }
 
 ::-webkit-scrollbar-thumb {
@@ -34,7 +34,7 @@ body {
 }
 
 #main-body, #top-bar{
-    background-color:rgb(25, 25, 25);
+    background-color:rgb(19, 19, 19);
 }
 
 h1, .subheading {

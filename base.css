@@ -11,8 +11,11 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 2px 4px;
+}
+
+button, div.tod-nav>span {
+    border-radius: 2px;
 }
 
 .project-content {
@@ -140,6 +143,26 @@ h3 {
 
 div.clearer {
     clear: both;
+}
+
+div.tod-nav {
+    display: flexbox;
+}
+
+div.tod-nav>span {
+    padding: 2px 5px;
+    border-radius: 3px;
+    border-width: 3px;  
+}
+
+img.svg-item {
+    background-color: rgba(0,0,0,0);
+    height: 10px;
+}
+
+div.tod-nav {
+    position: sticky;
+    top: 50px;
 }
 
 #top-bar {

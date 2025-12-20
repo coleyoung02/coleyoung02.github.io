@@ -37,6 +37,10 @@ a:visited:hover.link {
     color: rgb(0, 203, 34);
 }
 
+div.tod-nav>span {
+    background-color: rgb(230, 230, 230);
+}
+
 #top-bar > a:hover , li > a:hover, .link:hover {
     color: rgb(0, 203, 34);
 }

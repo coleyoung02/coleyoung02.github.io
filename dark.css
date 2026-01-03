@@ -1,6 +1,6 @@
 button, div.tod-nav>span {
     color: white;
-    background-color: rgb(0,0,0);
+    background-color: rgb(10,10,10);
 }
 
 button:hover {
@@ -9,8 +9,12 @@ button:hover {
 }
 
 body {
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(10, 10, 10);
     color: white;
+}
+
+.boxed {
+    background-color: rgb(20,20,20);
 }
 
 ::-webkit-scrollbar-track {

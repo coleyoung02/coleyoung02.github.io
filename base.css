@@ -18,6 +18,19 @@ button, div.tod-nav>span {
     border-radius: 2px;
 }
 
+.boxed {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.boxed > :first-child {
+    margin-top: 0;
+}
+
+.boxed > :last-child {
+    margin-bottom: 0;
+}
+
 .project-content {
     margin: auto;
     text-align: center;
@@ -251,12 +264,22 @@ a.anchor {
     }
 }
 @media (min-width: 536px) {
+    .bandcamp {
+        width: auto;
+    }
     .landscape {
         max-width: 536px;
     }
 }
     
 @media (min-width: 700px) {
+    .bandcamp { 
+        width: 400px;
+    }
+
+    .boxed {
+        width: 60%; margin: auto;
+    }
 
     .small {
         display: none;
@@ -338,6 +361,14 @@ a.anchor {
 }
 
 @media (min-width: 1100px) { 
+    
+    .bandcamp { 
+        width: 550px;
+    }
+
+    .boxed {
+        width: 40%; margin: auto;
+    }
     .project-row {
         font-size: 1em;
     }

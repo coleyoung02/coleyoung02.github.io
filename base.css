@@ -79,8 +79,6 @@ button, div.tod-nav>span {
     object-fit: cover;
 }
 
-
-
 .video-container {
     aspect-ratio : 16 / 9;
     width: 100%;
@@ -226,6 +224,12 @@ a.anchor {
     top: -1.85em;
     visibility: hidden;
 }
+.half-panel {
+    max-width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 @media (min-width: 200px) {
 
@@ -273,6 +277,16 @@ a.anchor {
 }
     
 @media (min-width: 700px) {
+
+    .half-panel-holder {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .half-panel {
+        max-width: 50%;
+    }
+
     .bandcamp { 
         width: 400px;
     }
